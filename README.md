@@ -15,3 +15,7 @@ Step 1:
 
 step2:
        Please add the postgres details int the common/configs/local.cfg
+
+
+       And run 
+       Make run-local
