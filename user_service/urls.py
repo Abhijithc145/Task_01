@@ -5,7 +5,9 @@ from . import views
 urlpatterns = [
     path('signup/',views.signup,name='signup'),
     path('studenthome/',views.studenthome,name='studenthome'),
+    path('staffhome/',views.staffhome,name='staffhome'),
+    path('adminhome/',views.adminhome,name='adminhome'),
+    path('editorhome/',views.editorhome,name='editorhome'),
     path('logout/',views.logout,name='logout'),
-    # path('logout/', auth_views.LogoutView.as_view(next_page='login'), name='logout'),
     path('',views.login,name='login')]
 
