@@ -14,8 +14,7 @@ Step 1:
 
 
 step2:
-       Please add the postgres details int the common/configs/local.cfg
-
-
+        IF you need to change the database go to common/configs/local.cfg add your postgres sql data
        And run 
+       
        Make run-local
