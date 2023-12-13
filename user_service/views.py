@@ -73,3 +73,4 @@ def logout(request):
     auth.logout(request)
     messages.success(request, 'You are now Loged Out')
     return redirect('login')
+
