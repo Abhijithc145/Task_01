@@ -5,6 +5,7 @@ Here we can run django project in two ways
 Step 1:
         python3 -m venv venv 
        source venv/bin/activate
+       python3 
        Here we are useing  database is sqllite
        Here you can run strightly use below commands
 
