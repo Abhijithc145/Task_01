@@ -15,9 +15,7 @@ Step 1:
 
 step2:
         IF you need to change the database go to common/configs/local.cfg add your (postgres) database path way
-
-        
-       And run 
+        Use this commond   
        
        Make run-local
 
