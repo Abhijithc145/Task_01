@@ -5,16 +5,9 @@
 {% block header %}My_page{% endblock %}
 
 {% block content %}
-{% if messages %}
-       {% for messages in messages %}
-       
-       <script>
-         alert('Please try again')
-       </script>
 
-       {% endfor %}
-       {% endif %}
        <div class="container mt-5">
+              <p style="color: #008000;">{% include 'alerts.html' %}</p>
         <form action="{% url 'login' %}" method="post" class="login-container">
             {% csrf_token %}
             
