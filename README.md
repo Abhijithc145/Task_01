@@ -15,9 +15,15 @@ Step 1:
        python3 manage.py run-server
 
 
+       or
+       python3 -m venv venv 
+       source venv/bin/activate
+       make run-local1
+
+
 step2:
         IF you need to change the database go to common/configs/local.cfg add your (postgres) database path way
         
-        Use this commond   "Make run-local"
+        Use this commond   "make run-local"
 
        
